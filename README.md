@@ -3,6 +3,7 @@ EvolveNet: A self-evolving neural network for limited hardware. Uses evolutionar
 
 Repository Structure
 
+```markdown
 — README.md                # This file: project description, instructions, and structure.
 — LICENSE                  # License file (e.g., MIT, Apache 2.0, etc.).
 — .gitignore               # Configuration to ignore unnecessary files.
@@ -23,6 +24,7 @@ Repository Structure
         — src/             # Implementation of C/C++ modules.
         — tests/           # Unit tests for the C/C++ code.
 — tools/                   # Auxiliary tools (scripts, log analysis, etc.).
+
 
 Main Scripts
 src/python/models/
