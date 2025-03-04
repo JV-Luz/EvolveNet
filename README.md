@@ -2,6 +2,21 @@
 EvolveNet: A self-evolving neural network for limited hardware. Uses evolutionary learning, compression, and continuous adaptation to optimize architecture and performance. A step toward more autonomous, resource-efficient AI.
 
 Repository Structure
+Main Scripts
+src/python/models/
+Contains classes and functions that define the network architecture, including evolutionary modules and adaptive mechanisms.
+
+src/python/training/
+Contains scripts responsible for training the network and executing evolutionary cycles, adjusting the network according to performance criteria and hardware constraints.
+
+src/python/utils/
+Contains utility functions for data loading, metric evaluation, and other supporting operations.
+
+experiments/scripts/
+Contains scripts for running experiments, generating logs and plots, and facilitating the comparative analysis of results.
+
+notebooks/
+Contains Jupyter Notebooks for interactive prototyping, testing, and visualizing results.
 
 ```markdown
 — README.md                # This file: project description, instructions, and structure.
@@ -24,20 +39,5 @@ Repository Structure
         — src/             # Implementation of C/C++ modules.
         — tests/           # Unit tests for the C/C++ code.
 — tools/                   # Auxiliary tools (scripts, log analysis, etc.).
-´´´
 
-Main Scripts
-src/python/models/
-Contains classes and functions that define the network architecture, including evolutionary modules and adaptive mechanisms.
 
-src/python/training/
-Contains scripts responsible for training the network and executing evolutionary cycles, adjusting the network according to performance criteria and hardware constraints.
-
-src/python/utils/
-Contains utility functions for data loading, metric evaluation, and other supporting operations.
-
-experiments/scripts/
-Contains scripts for running experiments, generating logs and plots, and facilitating the comparative analysis of results.
-
-notebooks/
-Contains Jupyter Notebooks for interactive prototyping, testing, and visualizing results.
